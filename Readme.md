@@ -17,3 +17,9 @@ https://www.kaggle.com/competitions/playground-series-s4e5/data
 
 - To start the jupyter notebook:
 ```jupyter notebook```
+
+## Getting Started
+- Create a conda environment based off of ```environment.yml``` using: 
+```conda env create --prefix ./env --file environment.yml```
+- Run ```get_data.ipynb``` to unzip the zipfile contents into the data directory
+- Run ```flood_prediction.ipynb``` to train the model
